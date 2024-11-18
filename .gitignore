@@ -1,0 +1,46 @@
+# Arquivos de sistema
+*.DS_Store
+*.swp
+*.swo
+
+# Arquivos de cache do editor de texto
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
+
+# Diretórios de dependências e pacotes
+.bundle/
+vendor/
+node_modules/
+tmp/
+log/
+coverage/
+spec/reports/
+
+# Arquivos gerados por testes
+*.retry
+.rspec_status
+coverage/
+results/
+report/
+capybara-*.html
+
+# Arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos do Ruby
+*.gem
+*.rbc
+.rspec
+
+# Diretórios do Capybara
+capybara-*.png
+screenshots/
+
+# Arquivos de lock
+Gemfile.lock
+yarn.lock
